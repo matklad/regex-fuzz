@@ -1,0 +1,10 @@
+[package]
+name = "regex-fuzz"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fastrand = "2.5.0"
+regex = { version = "1.12.3",  }
+regex-automata = { version = "=0.4.15"}
+regex-lite = { version = "0.1.9",  }
